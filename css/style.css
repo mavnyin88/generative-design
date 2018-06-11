@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    background:rgb(247,247,247);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+#wrapper{
+    padding:20px;
+}
+button{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    font-family:sans-serif;
+    cursor: pointer;
+    padding:16px;
+    border-radius:6px;
+    background:#191919;
+    color:#FFF;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border:none;
+}
+button:focus{outline:0;}
